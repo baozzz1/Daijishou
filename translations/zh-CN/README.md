@@ -4,7 +4,7 @@ This directory proposes `zh-CN` Android resources for Daijishō 1.5.0 (version c
 
 ## Resources
 
-- `values-zh-rCN/strings.xml`: 892 application strings, including 144 extension and recovery strings that previously fell back to English.
+- `values-zh-rCN/strings.xml`: 898 strings: 894 application strings and 4 generic component labels. This includes 150 additions to the previous Traditional Chinese inventory, covering extension/recovery text, the accessibility service description, implementation selection, and component labels.
 - `values-zh-rCN/arrays.xml`: 3 translated arrays, containing 18 options in the original order.
 - `format-placeholders.json`: expected Java/Android formatting tokens per string, for validation without distributing original application code.
 - `validate.py`: checks XML, unique resource names, string inventory, format tokens, and array lengths using Python's standard library.
@@ -22,6 +22,8 @@ Run `python translations/zh-CN/validate.py` to verify the proposed resources. Bu
 ## Local validation
 
 Formatting placeholders were compared against the default English resources of the installed 1.5.0 application. The XML compiled with Android's resource compiler as part of a local APK resource rebuild. On an Odin2 running Android 13 with a Simplified Chinese system locale, the main library, settings, folder permissions, and launch confirmation displayed Simplified Chinese. An existing 16-platform, 550-item library with cover images was preserved in the local test installation. Game launch handoffs passed for GBA Pokémon Ruby (RetroArch/mGBA), NDS Pokémon HeartGold (melonDS), and 3DS Pokémon Omega Ruby (AzaharPlus). These were boot/title-screen checks, not full gameplay compatibility tests.
+
+A follow-up inventory comparison against the installed 1.5.0 default resources found and filled two omitted application labels and four generic component labels. Of the 1,136 default string keys, this proposal covers 898; 186 additional library strings already have Simplified Chinese resources in the application, and the remaining 52 are technical constants (class names, font names, animation/vector paths, separators, and numeric formatting templates) that should not be translated. This is a resource inventory check, not a claim that every runtime message or future release is translated.
 
 The resource-only local test build retained all six original executable DEX files byte-for-byte. Some strings embedded in application code remain outside the scope of this resource proposal. A maintainer build from the private application source is still required for an official release.
 

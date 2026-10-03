@@ -132,8 +132,7 @@
     <string name="continue_play_summary">启动游戏后切换到“继续游玩”页面。</string>
     <string name="continue_play_title">继续游玩</string>
     <string name="copied">已复制</string>
-    <string name="copyright_statement">"版权所有 © %s TapiocaFox.
-在台湾设计。"</string>
+    <string name="copyright_statement">"版权所有 © %s TapiocaFox.\n在台湾设计。"</string>
     <string name="custom_box_art_aspect_ratio">自定义封面图片宽高比</string>
     <string name="custom_box_art_aspect_ratio_hint">自定义封面图片宽高比</string>
     <string name="custom_player_settings">自定义启动器设置</string>
@@ -436,8 +435,7 @@
     <string name="player_am_start_arguments_settings_hint">am start 启动参数</string>
     <string name="player_am_start_arguments_settings_more_hint">使用“{file.path}”或“{file.uri}”指定要启动的文件。</string>
     <string name="player_associated_platforms_title">相关平台</string>
-    <string name="player_error_format">"启动器错误：
-%s"</string>
+    <string name="player_error_format">"启动器错误：\n%s"</string>
     <string name="player_kill_package_processes_hint">启动前强制停止应用</string>
     <string name="player_list_title">查看启动器</string>
     <string name="player_name_settings_hint">启动器名称</string>
@@ -894,4 +892,10 @@
     <string name="widgets_page_subtitle_implementation">组件页面副标题实现</string>
     <string name="widgets_page_subtitle_implementation_summary">自定义组件页面的副标题。</string>
     <string name="widgets_page_subtitle_implementation_title">组件页面副标题</string>
+    <string name="accessibility_service_description">用于快速锁定屏幕的无障碍服务。</string>
+    <string name="choose_a_implementation_title">选择实现方式</string>
+    <string name="dest_title">目标页面标题</string>
+    <string name="material_slider_range_end">范围终点</string>
+    <string name="material_slider_range_start">范围起点</string>
+    <string name="material_slider_value">数值</string>
 </resources>

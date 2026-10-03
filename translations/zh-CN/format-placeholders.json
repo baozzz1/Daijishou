@@ -1139,5 +1139,11 @@
   "widget_implementation_title": [],
   "widgets_page_subtitle_implementation": [],
   "widgets_page_subtitle_implementation_summary": [],
-  "widgets_page_subtitle_implementation_title": []
+  "widgets_page_subtitle_implementation_title": [],
+  "accessibility_service_description": [],
+  "choose_a_implementation_title": [],
+  "dest_title": [],
+  "material_slider_range_end": [],
+  "material_slider_range_start": [],
+  "material_slider_value": []
 }
